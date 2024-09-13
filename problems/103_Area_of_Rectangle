@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x;
+    int y;
+    cout << "Welcome to my Area Program! \n";
+    cout << "Enter the length: \n";
+    cin >> x;
+    cout << "Enter the width: \n";
+    cin >> y;
+    cout << "Area = " + std::to_string(x*y);
+}
